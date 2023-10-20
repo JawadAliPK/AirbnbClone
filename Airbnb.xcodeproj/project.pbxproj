@@ -51,7 +51,11 @@
 		61772E482AE2F982006CF333 /* Airbnb */ = {
 			isa = PBXGroup;
 			children = (
-				61772E492AE2F982006CF333 /* AirbnbApp.swift */,
+				61772E5E2AE2FA31006CF333 /* App */,
+				61772E5D2AE2FA2E006CF333 /* Core */,
+				61772E5C2AE2FA2B006CF333 /* Extensions */,
+				61772E5B2AE2FA29006CF333 /* Models */,
+				61772E5F2AE2FA47006CF333 /* Utils */,
 				61772E4B2AE2F982006CF333 /* ContentView.swift */,
 				61772E4D2AE2F983006CF333 /* Assets.xcassets */,
 				61772E4F2AE2F983006CF333 /* Preview Content */,
@@ -65,6 +69,98 @@
 				61772E502AE2F983006CF333 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61772E5B2AE2FA29006CF333 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61772E5C2AE2FA2B006CF333 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		61772E5D2AE2FA2E006CF333 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				61772E602AE2FA9B006CF333 /* Explore */,
+				61772E612AE2FAA5006CF333 /* Listings */,
+				61772E622AE2FAAC006CF333 /* MapView */,
+				61772E662AE2FAFA006CF333 /* Profile */,
+				61772E632AE2FAB4006CF333 /* Root */,
+				61772E642AE2FAB8006CF333 /* TabBar */,
+				61772E652AE2FAC0006CF333 /* Wishlists */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		61772E5E2AE2FA31006CF333 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61772E492AE2F982006CF333 /* AirbnbApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61772E5F2AE2FA47006CF333 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		61772E602AE2FA9B006CF333 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		61772E612AE2FAA5006CF333 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		61772E622AE2FAAC006CF333 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		61772E632AE2FAB4006CF333 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		61772E642AE2FAB8006CF333 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		61772E652AE2FAC0006CF333 /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wishlists;
+			sourceTree = "<group>";
+		};
+		61772E662AE2FAFA006CF333 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
